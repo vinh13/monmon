@@ -1,0 +1,74 @@
+.hpoCaF {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.hpoCaF .banner-content img {
+    width: 100%;
+}
+
+.hpoCaF .banner-content > img {
+    height: 100%;
+    object-fit: cover;
+    transform: rotateY(
+180deg);
+}
+
+.hpoCaF .banner-content .character.character2 {
+    bottom: 58%;
+    width: 34.3%;
+    left: 5.6%;
+}
+
+.hpoCaF .banner-content .character {
+    position: absolute;
+    z-index: 10;
+}
+
+.hpoCaF .banner-content .parallax-inner {
+    transform: translate3d(0%, 15.7285%, 0px);
+}
+
+.hpoCaF .banner-content .character.character2 img {
+    transform: rotateY(
+180deg);
+}
+
+.hpoCaF .banner-content .character .character_main img {
+    width: 100%;
+    opacity: 0;
+}
+
+.hpoCaF .banner-content .character .character_main .scene {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+/* floor  */
+.hpoCaF .banner-content .floor {
+    position: absolute;
+}
+
+.hpoCaF .banner-content .floor.floor1 {
+    z-index: 1;
+    width: 100%;
+    left: 0%;
+    bottom: 0%;
+    transform: rotateY(0deg);
+}
+
+.hpoCaF .banner-content .floor.floor2 {
+    z-index: 15;
+    width: 100%;
+    left: 0px;
+    bottom: -1%;
+    transform: rotateY(0deg);
+}
+
+.hpoCaF .banner-content img {
+    width: 100%;
+}
